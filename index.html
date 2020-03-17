@@ -6,6 +6,18 @@
         <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
+        <table>
+            <tr>
+                <th>Round</th>
+                <th>Player Score</th>
+                <th>Computer Score</th>
+            </tr>
+            <tr>
+                <td id=roundNumber>1</td>
+                <td id=playerScore>0</td>
+                <td id=computerScore>0</td>
+            </tr>
+        </table>
         <div id="button_container">
             <button class="gamePlayButton" id="rock" type="button">
             <img src="images/rock.png" alt="rock">
@@ -16,6 +28,9 @@
             <button class="gamePlayButton" id="scissors" type="button">
                 <img src="images/scissors.png" alt="scissors">
             </button>
+        </div>
+        <div>
+            <button id="reset">New Game</button>
         </div>
         <script src="scripts/main.js"></script>
     </body>

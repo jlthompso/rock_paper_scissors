@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin: 300px auto 0;
+    margin: 50px auto 0;
     width: 50%;
 }
 
@@ -24,4 +24,37 @@
 .gamePlayButton img {
     max-height: 100%;
     max-width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 200px auto 0;
+    position: relative;
+}
+  
+table, th, td {
+    border: 1px solid black;
+    font-size: larger;
+}
+
+th, td {
+    padding: 15px;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    background-color: turquoise;
+}
+
+#reset {
+    display: block;
+    margin: 50px auto 0;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
 }
